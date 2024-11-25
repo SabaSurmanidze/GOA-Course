@@ -1,0 +1,41 @@
+div{
+    display: flex;
+    flex-grow: 1;
+}
+#item1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+  
+}
+#item2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+ 
+}
+#item3{
+       width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+ 
+}
+
+ 
+
+#item4{
+       width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+}
+#item5{
+    width: 100px;
+ height: 100px;
+ background-color: red;
+ border: 2px solid black;
+}
+/*    flex-grow რაც უფრო დიდია გამოსახულება მით უფრო მეტია სიგრძე */

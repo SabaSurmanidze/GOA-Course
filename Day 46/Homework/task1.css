@@ -1,0 +1,40 @@
+div{
+    display: flex;
+}
+#item1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+  
+}
+#item2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+ 
+}
+#item3{
+       width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+ 
+}
+
+ 
+
+#item4{
+       width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+}
+#item5{
+    width: 100px;
+ height: 100px;
+ background-color: red;
+ border: 2px solid black;
+}
+/* diplay flex-ი არის ცეესესის ელემენტი რომლის დახმარებითაც ჩვენ შეგვიძლია ელემენტები განვალაგოთ 1 ხაზზე */
