@@ -1,0 +1,18 @@
+#divp{
+    display: flex;
+    justify-content: space-around; 
+     justify-content: space-between; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divs{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+/* 1 ანცალკევებს დივებს შორი მანძილით */
+/* 2 ორივე დივი გადადის გვერდის კუთხეში */
+/* 3 ანცალკევებს დივებს ერთმანეთისგან მოკლე მანძილით */
