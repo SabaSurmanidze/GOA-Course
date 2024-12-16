@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(9, 7, 160, 0.781);
+}
+.container{
+
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px 5px red;
+    transition: 0.3s;
+    cursor: pointer;
+}
+img:hover{
+    box-shadow: 5px 5px 40px 5px  yellow;
+}
+header{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
