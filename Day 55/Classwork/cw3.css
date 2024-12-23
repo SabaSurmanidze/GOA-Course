@@ -1,0 +1,10 @@
+.image1{
+    width: 200px;
+    margin-top: 500px;
+}
+
+.image2{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
