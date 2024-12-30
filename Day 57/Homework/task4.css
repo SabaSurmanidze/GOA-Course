@@ -1,0 +1,13 @@
+.box{
+    width: 375px;
+    height: 250px;
+    border: 2px solid red;
+    box-shadow: 0px 0px 10px 2px red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(images/istockphoto-1719213024-612x612.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

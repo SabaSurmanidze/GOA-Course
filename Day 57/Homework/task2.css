@@ -1,0 +1,13 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    color: blue;
+    top: 10px;
+    left: 20px;
+}
