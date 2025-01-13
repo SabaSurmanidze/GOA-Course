@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: red;
+    animation-name: color;
+    animation-duration: 2s;
+}
+
+@keyframes color{
+    from{
+        color: red;
+    }
+    to{
+        color: blue;
+    }
+}

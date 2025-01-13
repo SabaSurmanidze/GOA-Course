@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: scale;
+    animation-duration: 2s;
+}
+
+@keyframes scale{
+    0%{
+        scale: 1;
+    }
+
+    50%{
+        scale: 1.5;
+    }
+
+    100%{
+        scale: 0.5;
+    }
+}
