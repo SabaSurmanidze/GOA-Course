@@ -1,0 +1,51 @@
+body{
+    background: #213555;
+}
+
+#loader{
+    width: 60px;
+    height: 60px;
+    border: 5px solid white;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: loader 2s infinite ease 1s;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+@keyframes loader{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.ball{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 50px;
+    animation: ball 1.5s infinite ease 3s;
+}
+
+@keyframes ball{
+    0%{
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+
+    50%{
+        transform: translateY(-70px);
+        width: 50px;
+        height: 50px;
+    }
+
+    100%{
+        width: 30px;
+        height: 30px;
+    }
+}
