@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(43, 61, 79);
+    overflow: hidden;
+}
+
+.yellow{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:  rgb(242, 197, 15) ;
+}
+
+.green{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(38, 173, 97);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 400px;
+    animation: spin 3s infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: translate(0px);
+    }
+
+    30%{
+        transform: translate(50px);
+    }
+
+    50%{
+        transform: translate(100px ,50px);
+    }
+
+    70%{
+        transform: translate(150px ,150px);
+    }
+    80%{
+        transform: translate(50px , 250px);
+    }
+    90%{
+        transform: translate(-50px);
+    }
+    100%{
+        transform: translate(-50px);
+    }
+}
+
