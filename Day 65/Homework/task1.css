@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141519 ;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    border-radius: 24px;
+    background-color: #202731;
+    padding: 10px;
+}
+
+
+
+.box .btn .star{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color:#252f38 ;
+    padding: 8px ;
+    border-radius: 50%;
+    border: none;
+    font-size: 12px;
+    color: #f97416;
+}
+
+.box .text{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: #fff;
+}
+
+
+.box .text p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #ccc;
+    opacity: 0.5;
+}
+.box .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.box .btns button{
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    background-color: #2a333c ;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box .submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box .submit button{
+    border: none;
+    background-color: #fc7613;
+    width: 230px;
+    padding: 8px 0px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
