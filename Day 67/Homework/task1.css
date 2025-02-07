@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.nav .right{
+    display: flex;
+    gap: 50px;
+}
+.main{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.main h4{
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 40px;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.box .cont img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
