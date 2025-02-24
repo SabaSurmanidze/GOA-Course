@@ -1,0 +1,28 @@
+body{
+    background-color: #222;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 20px 70px;
+    font-size: 40px;
+    cursor: pointer;
+    background-color: transparent ;
+    border:  2px solid #f0db4f;
+    box-shadow: #f0db4f 0px 2px 24px;
+    transition:  all 0.3s ease;
+}
+
+button:hover{
+    background-color: #f0db4f;
+    color: black;
+}
