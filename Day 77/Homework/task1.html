@@ -1,0 +1,31 @@
+<!-- შექმენით საიტი სამი ღილაკითა და სურათით.
+
+* პირველი ღილაკი ცვლის გვერდის ფონს სასურველ ფერზე.
+* მეორე ღილაკი ცვლის ყველა ღილაკის ტექსტს სასურველ ფერზე.
+* მესამე ღილაკი აღადგენს ფონის და ღილაკების ტექსტის ფერს თავდაპირველ მნიშვნელობებზე.
+* სურათზე დაჭერისას, ის იცვლება სხვა სურათით. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task1.css">
+    <title>javascript</title>
+</head>
+<body>
+    <div class="cont" id="cont">
+        <div class="image">
+            <img src="images/image1.avif" alt="" id="img">
+        </div>
+        <div class="btns">
+            <button  onclick="changeTheme()">change theme</button>
+            <button id="btn" onclick="changeBtnColor()">change btn color</button>
+            <button id="btn" onclick="defaultTheme()">default</button>
+            <button onclick="changeImage()">change image</button>
+        </div>
+    </div>
+    <script src="task1.js"></script>
+</body>
+</html>
