@@ -23,6 +23,15 @@ cat = Cat("kit" , 3)
 print(person)
 print(cat)
             
-    
-        
+class Animal:
+    def __init__(self , kind , name  , age):
+        self.kind = kind
+        self.name = name
+        self.age = age
+
+jhon = Animal("mammal" , "Human" , 5)
+parrot = Animal("bird" , "maqau" , 3)
+
+
+
         

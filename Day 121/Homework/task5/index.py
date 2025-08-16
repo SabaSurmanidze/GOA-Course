@@ -26,7 +26,7 @@ class Batman:
         self.name = name
 
     def fight_crime(self):
-        return f"{self.name} is fighting 
+        return f"{self.name} is fighting"
 
     def drive_batmobile(self):
         return f"{self.name} is driving the Batmobile"
