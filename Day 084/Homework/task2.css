@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar .links a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .btn{
+    margin-left: 10px;
+}
+
+.navbar .btn button{
+    padding: 5px 10px;
+    background-color: #00a082 ;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+
+.foods{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.foods .cont{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 5px 0px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    max-width: 300px;
+    z-index: 1;
+}
+
+.foods .cont img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+.foods .cont:hover img{
+    transform:scale(1.03);
+}
+
+
+
+.foods .cont .info{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.header h1{
+    font-size: 50px;
+    font-weight: 400;
+}

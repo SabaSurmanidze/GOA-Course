@@ -1,0 +1,13 @@
+div{
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+div:active{
+    transform: translate(50px) rotate(25deg) scale(4);
+}

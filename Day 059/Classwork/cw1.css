@@ -1,0 +1,49 @@
+
+
+.red{
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.red:active{
+    transform: translate(-50px);
+}
+.green{
+    width: 150px;
+    height: 200px;
+    background-color: green;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.green:active{
+    transform: scale(1.5);
+}
+.blue{
+    width: 150px;
+    height: 200px;
+    background-color: green;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.blue:active{
+    transform: translate(100px ,100px);
+}
+
+.purple{
+    width: 150px;
+    height: 200px;
+    background-color: green;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.purple:active{
+    transform: rotate(-180deg);
+}

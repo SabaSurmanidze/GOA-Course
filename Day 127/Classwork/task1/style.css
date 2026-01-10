@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+#products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.cart{
+    display: flex;
+    background-color: #222;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    border-radius: 8px;
+    gap: 2px;
+    margin-top: 20px;
+    padding: 5px;
+}

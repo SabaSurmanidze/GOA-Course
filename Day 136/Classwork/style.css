@@ -1,0 +1,26 @@
+/* შექმენით 3x3 კონტეინერი, სადაც გექნებათ
+ სამი ფერადი ელემენტი (div), შემდეგ ეცადეთ 
+ რომ ეს ელემენტები grid-area-ს მეშვეობით
+  კონტეინერში სასურველი ადგილას გადაიტანოთ, გამოიყენეთ z-index. */
+
+
+  .cont{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+  }
+
+  .cont .div1{
+    background-color: limegreen;
+    grid-area:  1 / 5;
+    z-index: 2;
+  }
+
+   .cont .div2{
+    background-color: blueviolet;
+    grid-area:  1 / 5;
+  }
+
+   .cont .div3{
+    background-color: rgb(230, 32, 32);
+    grid-area:  1 / 5;
+  }

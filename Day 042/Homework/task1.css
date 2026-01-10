@@ -1,0 +1,21 @@
+input[type="text"]{
+    border: 2px solid red;
+}
+input[type="password"]{
+    border: 2px solid yellow;
+}
+
+input[type="email"]{
+    border: 2px solid blue;
+}
+
+input[type="number"]{
+    border: 2px solid chartreuse;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px 30px 40px 5px;
+    background-color: red;
+}

@@ -1,0 +1,13 @@
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px 10px 200px 200px;
+}
+.leaf{
+    background-color: green;
+    width: 100px;
+    height: 10px;
+}
+
+

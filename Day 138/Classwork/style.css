@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main img{
+    width: 150px;
+    height: 200px;
+}
+
+.main .title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: orangered;
+    text-align: center;
+}
+
+.main .price {
+    margin-top: 20px;
+    font-size: 16px;
+    color: orangered;
+    font-weight: 500;
+}
+
+.main .cat{
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(233, 43, 43);
+}

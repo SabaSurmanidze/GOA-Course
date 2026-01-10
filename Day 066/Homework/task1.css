@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #010011;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.box{
+    animation: orbit 20s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .box .sun{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0px 0px 100px 0px yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box .orbit{
+    border: 2px solid #fff;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 50%;
+}
+
+.box .orbit .planet{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.box .orbit2{
+    border: 2px solid #fff;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 50%;
+}
+.box .orbit2 .planet2{
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-bottom: 200px;
+}
+
+.box .orbit3{
+    border: 2px solid #fff;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 50%;
+}
+
+.box .orbit3 .planet3{
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-bottom: 100px;
+}
+
+.box .orbit4{
+    border: 2px solid #fff;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 50%;
+}
+
+.box .orbit4 .planet4{
+    background-color: cyan;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 160px;
+    margin-bottom: 200px;
+}
+
+
+
+
+
+@keyframes orbit{
+    to{
+        transform: rotate(360deg);
+    }
+}

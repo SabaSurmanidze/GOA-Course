@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(28, 28, 69) ;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cont .yellow{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(252, 202, 86);
+    border-radius: 50%;
+    animation: yellow 1.5s infinite ease;
+    transition: all 0.5s ease;
+}
+
+.cont .red{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 38, 125) ;
+    border-radius: 50%;
+    animation: red 2s infinite ease;
+}
+
+.cont .blue{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(47, 221, 250) ;
+    border-radius: 50%;
+    animation: blue 2.5s infinite ease;
+}
+
+.cont .pink{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(230, 69, 247) ;
+    border-radius: 50%;
+    animation: pink 3s infinite ease;
+}
+
+@keyframes yellow{
+    0%{
+        transform: scale(1);
+    }
+    90%{
+        scale: 2;
+    }
+    100%{
+        scale: 1;
+    }
+}
+
+@keyframes red{
+    0%{
+        transform: scale(1);
+    }
+    90%{
+        scale: 2;
+    }
+    100%{
+        scale: 1;
+    }
+}
+
+@keyframes blue{
+    0%{
+        transform: scale(1);
+    }
+    90%{
+        scale: 2;
+    }
+    100%{
+        scale: 1;
+    }
+}
+
+@keyframes pink{
+    0%{
+        transform: scale(1);
+    }
+    90%{
+        scale: 2;
+    }
+    100%{
+        scale: 1;
+    }
+}

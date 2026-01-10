@@ -1,0 +1,18 @@
+/* 4. შექმენით ორი თემა: ღია ('.light-theme') 
+და მუქი ('.dark-theme'), თითოეულში აღწერეთ
+ ფერების ცვლადები, როგორიცაა '--bg-color' და '--text-color',
+  და გამოიყენეთ ისინი ელემენტებზე ისე, რომ თემის
+   კლასის შეცვლით დიზაინი სრულად იცვლებოდეს */
+
+
+:root {
+    --div-background-color: red;
+    --text-color: black;
+    --div-margin: 10px;
+    --div-padding: 15px;
+}
+
+body {
+    background-color: var(--background-color, white);
+}
+

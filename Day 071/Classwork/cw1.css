@@ -1,0 +1,16 @@
+
+
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+button{
+    width: 70px;
+    height: 30px;
+    background-color: #f0db4f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

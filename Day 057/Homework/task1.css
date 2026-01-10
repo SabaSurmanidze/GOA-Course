@@ -1,0 +1,16 @@
+body{
+   background-image: url(images/istockphoto-1719213024-612x612.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}

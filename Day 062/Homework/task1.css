@@ -1,0 +1,50 @@
+body{
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    height: 100vh;
+    overflow: hidden;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 10px 20px 20px 20px;
+    position: absolute;
+    left: 10px;
+    top: 40%;
+    transition: all 0.5s;
+    animation: ball 3s  1s;
+}
+
+
+@keyframes ball {
+    0%{
+        position: absolute;
+        left: 10px;
+        top: 40%;
+    }
+
+    30%{
+        position: absolute;
+        left: 200px;
+    }
+
+    50%{
+        position: absolute;
+        top: 578px;
+    }
+
+    70%{
+        position: absolute;
+        top: 300px;
+    }
+
+
+    100%{
+        position: absolute;
+        left: 200px;
+        top: 570px;
+    }
+}
+
+

@@ -1,0 +1,75 @@
+.topic{
+    text-align: center;
+    color: aqua;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.goa{
+    text-align: center;
+    color: #fff ;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+
+}
+.image{
+    text-align: center;
+    
+}
+button{
+    color: black;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 100px;
+    height: 30px;
+    transition: 0.5s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+button:hover{
+    background-color: #fff;
+
+}
+
+.contact-us{
+    text-align: center;
+    color: aqua;
+}
+
+main{
+    text-align: center;
+}
+.btn{
+    font-size: 10px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 100px;
+    height: 30px;
+    transition: 0.5s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #fff;
+}
+
+.back{
+    font-size: 10px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: 100px;
+    height: 30px;
+    transition: 0.5s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+.back:hover{
+    background-color: #fff;
+    text-align: center;
+}

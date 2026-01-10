@@ -1,0 +1,11 @@
+:root{
+    --margin: 15px;
+    --backround-color: red;
+    --padddign: 10px
+}
+
+.child{
+    margin: var(--margin);
+    background-color: var(--backround-color);
+    padding: var(--padddign);
+}

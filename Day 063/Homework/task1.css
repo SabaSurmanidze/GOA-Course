@@ -1,0 +1,67 @@
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50%;
+    position: relative;
+}
+.blue{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 10px;
+}
+
+.red{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px;
+}
+
+.black{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 10px;
+    position: absolute;
+    left: 15px;
+    animation: shoot 1s infinite linear;
+    transition: all 0.5s;
+}
+
+@keyframes shoot{
+    0%{
+        position: absolute;
+        left: 15px;
+    }
+    20%{
+        position: absolute;
+        left: 100px;
+    }
+    35%{
+        position: absolute;
+        left: 200px;
+    }
+
+    50%{
+        position: absolute;
+        left: 300px;
+    }
+    75%{
+        position: absolute;
+        left: 400px;
+    }
+    95%{
+        position: absolute;
+        left: 500px;
+    }
+    100%{
+        position: absolute;
+        left: 600px;
+    }
+}

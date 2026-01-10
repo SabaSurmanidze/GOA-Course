@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.cont{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.cont .img{
+    width: 100%;
+}
+
+.cont .img img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.cont .info{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.cont .info h1{
+    font-size: 20px;
+}
+
+.cont .info p {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.cont  .main{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fe;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.cont .main .logo{
+    border-radius: 50%;
+    background-color: #dfe5fb;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont .main .price{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.cont .main .price .p1{
+    color: #24324f;
+    font-weight: 500;
+}
+
+.cont .main .price .p2{
+    color: #858ca4;
+}
+
+
+.cont  .main .logo img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont .main .btn{
+    margin-left: 20px;
+}
+
+.cont .submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cont .submit button{
+    background-color: #382ae1;
+    width: 250px;
+    padding: 8px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px #382ae1;
+    cursor: pointer;
+}
+
+.cont .submit a{
+    text-decoration: none;
+}

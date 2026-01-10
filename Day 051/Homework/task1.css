@@ -1,0 +1,33 @@
+#div-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+   
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid black;
+    
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    
+}
+.div4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 255, 0);
+    border: 2px solid black;
+   
+}

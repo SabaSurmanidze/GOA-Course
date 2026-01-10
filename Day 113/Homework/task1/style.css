@@ -1,0 +1,19 @@
+/* 2. შექმენით ვებსაიტი, სადაც გამოიყენებთ
+ CSS ცვლადებს ორი ძირითადი ფერისთვის
+  — '--primary-color' და '--secondary-color',
+   და გამოიყენეთ ისინი ფონების, ტექსტის ფერისა 
+   და ღილაკების დიზაინისთვის. ცვლადების შეცვლისას 
+   მთელ გვერდზე უნდა იცვლებოდეს ფერები თანმიმდევრულად */
+
+:root{
+    --primaryColor: blue;
+    --secondaryColor: black;
+}
+
+button{
+    background-color: var(--primaryColor);
+}
+
+button:hover{
+    background-color: var(--secondaryColor);
+}

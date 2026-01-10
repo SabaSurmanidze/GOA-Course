@@ -1,0 +1,139 @@
+body{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    font-family:'Courier New', Courier, monospace
+
+}
+
+a:hover{
+    color: orange;
+}
+.div1{
+    width: 100%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 8px;
+  border: 2px solid white;
+}
+
+.h1{
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img1{
+   margin-left: 526px;
+   border: 2px solid white;
+}
+
+.p1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.header2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 580px;
+}
+.div2{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 210px;
+    margin-left: 550px;
+
+}
+
+.formh1{
+    color: white;
+   margin-left: 25px;
+   font-family: 'Courier New', Courier, monospace;
+
+    
+}
+.form1{
+    padding: 6px;
+}
+
+input{
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.header3{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 560px;
+}
+
+.formh12{
+    color: white;
+   margin-left: 50px;
+   font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btn1{
+    margin-left: 60px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    
+}
+
+.header4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 510px;
+}
+
+
+.header5{
+
+       font-family:Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        margin-left: 565px;
+    
+}
+
+
+
+.div3{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 210px;
+    margin-left: 550px;
+}
+
+.btn2{
+    margin-left: 60px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
