@@ -1,0 +1,168 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A8B2BF;
+    flex-direction: column;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    width: 280px;
+    height: 50px;
+
+
+}
+
+.title p{
+    color: #5183C4;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.cont .main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont .main .wrapper{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    gap: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.cont .main .wrapper img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 120px;
+    bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.cont .main .wrapper p{
+    font-size: 50px;
+    color: #FFEE00;
+    font-weight: 600;
+    margin-right: 200px;
+    position: absolute;
+    left: 100px;
+    bottom: 41px;
+}
+
+.cont .main .hero{
+    width: 250px;
+    border-radius: 10px;
+    background-color: #5183C4;
+    padding: 10px;
+    margin-bottom: 5px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+
+}
+
+.cont .main .hero .seperator{
+    display: flex;
+    width: 270px;
+    height: 3px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cont .main .hero .text{
+    font-size: 20px;
+    color: #FFEE00;
+    position: absolute;
+    bottom: 40px;
+
+}
+
+.cont .main .hero .time {
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 25%;
+}
+
+.cont .main .hero p{
+    text-align: center;
+}
+
+.cont form{
+    padding: 15px;
+    display: flex;
+    gap: 5px;
+}
+
+.cont form button {
+    width: 35px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5183C4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.cont form button img{
+    width: 18px;
+}
+
+.cont form input{
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #5183C4;
+    border: none;
+    color: #fff;
+    outline: none;
+    width: 200px;
+}
+
+.cont form input::placeholder {
+    color: #fff;
+    font-size: 15px;
+
+}
