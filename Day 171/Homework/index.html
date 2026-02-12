@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Homework</title>
+</head>
+<body>
+    <div class="note">
+        <div class="title">
+            <h1>New title</h1>
+            <input type="text" id="title" required>
+        </div>
+
+        <div class="note-tags">
+            <h1>Note Tags</h1>
+            <div class="tags">
+                <button class="tag">Python</button>
+                <button class="tag">Artifical Inteligence</button>
+                <button class="tag">Usefull Skills</button>
+                <button class="tag">Git Hub</button>
+            </div>
+        </div>
+        <div class="your-note">
+            <h1>Your Note:</h1>
+            <input type="text" id="note" required>
+        </div>
+
+        <div class="preview">
+            <h3>Preview:</h3>
+            <div class="note-preview">
+                <h1 id="title-h1"></h1>
+                <p id="note-p"></p>
+                <h4 id="tag-h2"></h4>
+            </div>
+        </div>
+
+        <button id="Add" type="submit">Add Note</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
