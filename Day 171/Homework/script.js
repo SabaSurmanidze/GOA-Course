@@ -17,11 +17,7 @@ tags.forEach(tag => {
 })
 
 
-// <div class="note-preview">
-//         h1 id="title-h1"></h1>
-//     p id="note-p"></p>
-//     <h4 id="tag-h2"></h4>
-//     </div>
+
 
 addNote.addEventListener("click" , () => {
 
